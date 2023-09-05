@@ -44,3 +44,7 @@
     background: linear-gradient(to bottom, #ffffff 30%, #dad2d2 70%);
     
 }
+.pressed{
+    background-color: #000000;
+    color: #ffffff;
+}
