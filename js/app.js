@@ -1,6 +1,11 @@
 const keys = document.querySelectorAll(".key");
 const notesArray = ["Do","Re","Mi","Fa","Sol","La","Si"];
 
+
+function mostrar(){
+    document.getElementById("piano").style.display= "block";
+    document.getElementById("inicio").style.display= "none";
+}
 document.onkeydown = (key) => {
     if(key.key <= 7 && key.key >= 1) {
         let pressedKey = notesArray[key.key - 1];/*almaceno la llave*/

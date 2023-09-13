@@ -4,7 +4,24 @@
     box-sizing: border-box;
     background: #dfdfe9;
 }
-.piano{
+#inicio{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+   
+}
+.button{
+    position: absolute;
+    left: 10%;
+    right: 8%;
+    padding: 0.7rem;
+    margin: 1rem;
+    border-radius: 30px;
+    background: #409dee;
+    
+}
+#piano{
+    display: none;
     width: 750px;
     height: 250px;
     background: #000000;
